@@ -46,7 +46,7 @@ export default function ChatScreen() {
 
   const renderItem = ({ item }) => {
     const isMe = item.sender === 'me';
-    const dateTime = new Date(item.time).toLocaleString();
+    const dateTime = new Date(item.time).toLocaleTimeString();
   
     return (
       <View style={{ marginBottom: 12 }}>
@@ -55,7 +55,6 @@ export default function ChatScreen() {
           <Text style={[styles.messageText, isMe ? styles.myText : styles.otherText]}>
             {item.text}
           </Text>
-          <Text style={styles.timeText}>{dateTime}</Text>
         </View>
       </View>
     );
