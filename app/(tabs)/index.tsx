@@ -46,10 +46,10 @@ export default function ChatScreen() {
 
   const renderItem = ({ item }) => {
     const isMe = item.sender === 'me';
-    const dateTime = new Date(item.time).toLocaleTimeString();
+    const dateTime = new Date(item.time).toLocaleString();
   
     return (
-      <View style={{ marginBottom: 12 }}>
+      <View>
          <Text style={styles.timeText}>{dateTime}</Text>
         <View style={[styles.messageContainer, isMe ? styles.myMessage : styles.otherMessage]}>
           <Text style={[styles.messageText, isMe ? styles.myText : styles.otherText]}>
@@ -78,8 +78,6 @@ export default function ChatScreen() {
           <Entypo name="dots-three-vertical" size={18} color="black" />
         </TouchableOpacity>
       </View>
-
-      <Text style={styles.dateText}>12 JAN, 2024</Text>
 
       {/* Messages Container */}
       <FlatList
@@ -133,6 +131,7 @@ const styles = StyleSheet.create({
   chatList: {
     paddingHorizontal: 12,
     paddingBottom: 12,
+    paddingTop: 12,
   },
   messageContainer: {
     padding: 10,
