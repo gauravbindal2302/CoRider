@@ -13,11 +13,16 @@ import {
 
 export default function ChatScreen() {
   const [messages, setMessages] = useState([]);
+  const [tripInfo, setTripInfo] = useState({
+    name: "",
+    from: "",
+    to: ""
+  })
 
   const api = "https://qa.corider.in/assignment/chat?page=0"
 
   useEffect(() => {
-    const fetchChats = async () => {
+    const fetchData = async () => {
       try {
         const res = await axios.get(`${api}`);
         const data = res.data.chats.map((chat) => ({
@@ -26,14 +31,17 @@ export default function ChatScreen() {
           sender: chat.sender.self ? 'me' : 'other',
           time: chat.time,
         }));
+        setTripInfo({
+          name: res.data.name,
+          from: res.data.from,
+          to: res.data.to,
+        })
         setMessages(data);
       } catch (err) {
         console.error('Failed to fetch chat data', err);
       }
     };
-
-    
-    fetchChats();
+    fetchData();
   }, []);
 
   const renderItem = ({ item }) => {
@@ -62,9 +70,9 @@ export default function ChatScreen() {
           <Ionicons name="arrow-back" size={24} color="black" />
         </TouchableOpacity>
         <View style={{ marginLeft: 12 }}>
-          <Text style={styles.tripTitle}>Trip 2</Text>
+          <Text style={styles.tripTitle}>{tripInfo.name}</Text>
           <Text style={styles.subText}>
-            From <Text style={styles.bold}>IGI Airport, T3</Text> To <Text style={styles.bold}>Sector 28</Text>
+            From <Text style={styles.bold}>{tripInfo.from}</Text> To <Text style={styles.bold}>{tripInfo.to}</Text>
           </Text>
         </View>
         <TouchableOpacity style={styles.menuIcon}>
