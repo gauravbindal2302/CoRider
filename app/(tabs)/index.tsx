@@ -26,7 +26,7 @@ export default function ChatScreen() {
     setShowMenu(prevState => !prevState);
   };
   
-  const api = "https://qa.corider.in/assignment/chat?page="; // Add 0 after "=" to use API
+  const api = "https://qa.corider.in/assignment/chat?page=0"; // Add 0 after "=" to use API
 
   const flatListRef = useRef(null);
 
@@ -52,7 +52,7 @@ export default function ChatScreen() {
         })
         setMessages(data);
       } catch (err) {
-        console.error('Failed to fetch chat data', err);
+        // console.error('Failed to fetch chat data', err);
         
         // Using Dummy data in case API doesn't work
         const dummyData = Chats.chats.map((chat) => ({
