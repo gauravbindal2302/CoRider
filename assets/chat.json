@@ -1,0 +1,152 @@
+{
+  "chats": [
+    {
+      "id": "5e24b7bbacdf4a9ebb9f16bec4dce8a0",
+      "message": "Etiam risus sapien, auctor eu volutpat sit amet, porta in nunc.Proin ipsum purus, laoreet quis dictum a, laoreet sed ligula.Quisque vitae varius ex, eu volutpat orci.<br>Page 0<br>",
+      "sender": {
+        "image": "https://fastly.picsum.photos/id/819/160/160.jpg?hmac=duWXAb-022KT3VnXfDCSyr0sLwddRYoP7RMFnidof_g",
+        "is_kyc_verified": false,
+        "self": false,
+        "user_id": "54fbcca87afa4527b28221df348018b1"
+      },
+      "time": "2025-05-08 15:20:58"
+    },
+    {
+      "id": "ca49fca3da4848a5bd972b020dbac3a7",
+      "message": "Quisque vitae varius ex, eu volutpat orci.Nullam tempus scelerisque purus, sed mattis elit condimentum nec.",
+      "sender": {
+        "image": "https://fastly.picsum.photos/id/819/160/160.jpg?hmac=duWXAb-022KT3VnXfDCSyr0sLwddRYoP7RMFnidof_g",
+        "is_kyc_verified": false,
+        "self": false,
+        "user_id": "54fbcca87afa4527b28221df348018b1"
+      },
+      "time": "2025-05-08 15:21:28"
+    },
+    {
+      "id": "b56adc872d314b67908c2bde31a5ee33",
+      "message": "Nullam tempus scelerisque purus, sed mattis elit condimentum nec.Aenean ullamcorper orci et vulputate fermentum.Integer ultricies malesuada quam.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Etiam risus sapien, auctor eu volutpat sit amet, porta in nunc.",
+      "sender": {
+        "image": "https://fastly.picsum.photos/id/1072/160/160.jpg?hmac=IDpbpA5neYzFjtkdFmBDKXwgr-907ewXLa9lLk9JuA8",
+        "is_kyc_verified": true,
+        "self": true,
+        "user_id": "67eab7475e5e4dd0903e133705213b43"
+      },
+      "time": "2025-05-08 15:25:28"
+    },
+    {
+      "id": "5bb159cd67a74fcb82d0cda85cdcdfe9",
+      "message": "Quisque vitae varius ex, eu volutpat orci.Duis ac nulla varius diam ultrices rutrum.Cras vel elit sed mi placerat pharetra eget vel odio.<br>Page 0<br>Proin ipsum purus, laoreet quis dictum a, laoreet sed ligula.",
+      "sender": {
+        "image": "https://fastly.picsum.photos/id/648/160/160.jpg?hmac=AqrvRqv79fFWHWjjjm_Cn7QPPJ2JVox_CLRgzISsO4o",
+        "is_kyc_verified": false,
+        "self": false,
+        "user_id": "a6c04ceed74b447280f5fa7ab053adcc"
+      },
+      "time": "2025-05-08 15:41:15"
+    },
+    {
+      "id": "fd9a7ad4db544639b7341c8472e6d3e1",
+      "message": "Cras vel elit sed mi placerat pharetra eget vel odio.Etiam risus sapien, auctor eu volutpat sit amet, porta in nunc.Duis ac nulla varius diam ultrices rutrum.",
+      "sender": {
+        "image": "https://fastly.picsum.photos/id/819/160/160.jpg?hmac=duWXAb-022KT3VnXfDCSyr0sLwddRYoP7RMFnidof_g",
+        "is_kyc_verified": false,
+        "self": false,
+        "user_id": "54fbcca87afa4527b28221df348018b1"
+      },
+      "time": "2025-05-08 15:41:45"
+    },
+    {
+      "id": "cbdf5d6433ca4ee494de2c1c217f35f4",
+      "message": "Nullam tempus scelerisque purus, sed mattis elit condimentum nec.Proin ipsum purus, laoreet quis dictum a, laoreet sed ligula.",
+      "sender": {
+        "image": "https://fastly.picsum.photos/id/648/160/160.jpg?hmac=AqrvRqv79fFWHWjjjm_Cn7QPPJ2JVox_CLRgzISsO4o",
+        "is_kyc_verified": false,
+        "self": false,
+        "user_id": "a6c04ceed74b447280f5fa7ab053adcc"
+      },
+      "time": "2025-05-08 15:42:15"
+    },
+    {
+      "id": "ef4f117bb4ae4dcfaa3db4de3d621f76",
+      "message": "Integer ultricies malesuada quam.Aenean ullamcorper orci et vulputate fermentum.Integer ultricies malesuada quam.",
+      "sender": {
+        "image": "https://fastly.picsum.photos/id/551/160/160.jpg?hmac=DKAZaW3KPwMLhYwnJ-s_NOYKngMXo-nR1pEQzcNCgr0",
+        "is_kyc_verified": true,
+        "self": false,
+        "user_id": "73785ed67d034f6290b0334c6e756433"
+      },
+      "time": "2025-05-08 15:42:45"
+    },
+    {
+      "id": "9c38ffab445747b5aeaf564a9dd6d676",
+      "message": "Aenean ullamcorper orci et vulputate fermentum.Quisque vitae varius ex, eu volutpat orci.<br>Page 0<br>Duis ac nulla varius diam ultrices rutrum.",
+      "sender": {
+        "image": "https://fastly.picsum.photos/id/551/160/160.jpg?hmac=DKAZaW3KPwMLhYwnJ-s_NOYKngMXo-nR1pEQzcNCgr0",
+        "is_kyc_verified": true,
+        "self": false,
+        "user_id": "73785ed67d034f6290b0334c6e756433"
+      },
+      "time": "2025-05-08 15:43:15"
+    },
+    {
+      "id": "c20a8fbe00b9413abf6931fe21f47623",
+      "message": "Quisque vitae varius ex, eu volutpat orci.Aenean ullamcorper orci et vulputate fermentum.",
+      "sender": {
+        "image": "https://fastly.picsum.photos/id/551/160/160.jpg?hmac=DKAZaW3KPwMLhYwnJ-s_NOYKngMXo-nR1pEQzcNCgr0",
+        "is_kyc_verified": true,
+        "self": false,
+        "user_id": "73785ed67d034f6290b0334c6e756433"
+      },
+      "time": "2025-05-08 15:43:45"
+    },
+    {
+      "id": "4faf8d5ccf8d4e6ca18ab78c748b46d0",
+      "message": "Integer ultricies malesuada quam.Proin ipsum purus, laoreet quis dictum a, laoreet sed ligula.Quisque vitae varius ex, eu volutpat orci.Proin ipsum purus, laoreet quis dictum a, laoreet sed ligula.Cras erat dui, finibus vel lectus ac, pharetra dictum odio.",
+      "sender": {
+        "image": "https://fastly.picsum.photos/id/551/160/160.jpg?hmac=DKAZaW3KPwMLhYwnJ-s_NOYKngMXo-nR1pEQzcNCgr0",
+        "is_kyc_verified": true,
+        "self": false,
+        "user_id": "73785ed67d034f6290b0334c6e756433"
+      },
+      "time": "2025-05-08 15:44:15"
+    },
+    {
+      "id": "d7aa8dd03dca4b85b85b32a6a8d99222",
+      "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Quisque vitae varius ex, eu volutpat orci.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Cras erat dui, finibus vel lectus ac, pharetra dictum odio.<br>Page 0<br>",
+      "sender": {
+        "image": "https://fastly.picsum.photos/id/551/160/160.jpg?hmac=DKAZaW3KPwMLhYwnJ-s_NOYKngMXo-nR1pEQzcNCgr0",
+        "is_kyc_verified": true,
+        "self": false,
+        "user_id": "73785ed67d034f6290b0334c6e756433"
+      },
+      "time": "2025-05-08 15:44:45"
+    },
+    {
+      "id": "9d80a093472c4e99910ed4aa89d36539",
+      "message": "Quisque vitae varius ex, eu volutpat orci.Proin ipsum purus, laoreet quis dictum a, laoreet sed ligula.Proin ipsum purus, laoreet quis dictum a, laoreet sed ligula.",
+      "sender": {
+        "image": "https://fastly.picsum.photos/id/1072/160/160.jpg?hmac=IDpbpA5neYzFjtkdFmBDKXwgr-907ewXLa9lLk9JuA8",
+        "is_kyc_verified": true,
+        "self": true,
+        "user_id": "67eab7475e5e4dd0903e133705213b43"
+      },
+      "time": "2025-05-08 15:45:15"
+    },
+    {
+      "id": "60879f901f72449fa9d5c74ebb51a4f1",
+      "message": "Cras vel elit sed mi placerat pharetra eget vel odio.Aenean ullamcorper orci et vulputate fermentum.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Etiam risus sapien, auctor eu volutpat sit amet, porta in nunc.",
+      "sender": {
+        "image": "https://fastly.picsum.photos/id/648/160/160.jpg?hmac=AqrvRqv79fFWHWjjjm_Cn7QPPJ2JVox_CLRgzISsO4o",
+        "is_kyc_verified": false,
+        "self": false,
+        "user_id": "a6c04ceed74b447280f5fa7ab053adcc"
+      },
+      "time": "2025-05-08 15:45:45"
+    }
+  ],
+  "from": "Domlur",
+  "message": "Chat retrieved successfully",
+  "name": "Trip No. 62",
+  "status": "success",
+  "to": "Whitefield"
+}

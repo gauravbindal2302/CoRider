@@ -11,6 +11,7 @@ import {
   TouchableOpacity,
   View
 } from 'react-native';
+import Chats from "../../assets/chat.json";
 
 export default function ChatScreen() {
   const [messages, setMessages] = useState([]);
@@ -24,8 +25,8 @@ export default function ChatScreen() {
   const toggleMenu = () => {
     setShowMenu(prevState => !prevState);
   };
-
-  const api = "https://qa.corider.in/assignment/chat?page=0"
+  
+  const api = "https://qa.corider.in/assignment/chat?page="; // Add 0 after "=" to use API
 
   useEffect(() => {
     const fetchData = async () => {
@@ -46,6 +47,21 @@ export default function ChatScreen() {
         setMessages(data);
       } catch (err) {
         console.error('Failed to fetch chat data', err);
+        
+        // Using Dummy data in case API doesn't work
+        const dummyData = Chats.chats.map((chat) => ({
+          id: chat.id,
+          message: chat.message.replace(/<br>/g, '\n'),
+          sender: chat.sender.self ? 'me' : 'other',
+          image: chat.sender.image,
+          time: chat.time,
+        }));
+        setTripInfo({
+          name: Chats.name,
+          from: Chats.from,
+          to: Chats.to,
+        });
+        setMessages(dummyData);
       }
     };
     fetchData();
