@@ -1,6 +1,6 @@
 import { Entypo, Ionicons, MaterialIcons } from '@expo/vector-icons';
 import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import {
   FlatList,
   Image,
@@ -28,6 +28,12 @@ export default function ChatScreen() {
   
   const api = "https://qa.corider.in/assignment/chat?page="; // Add 0 after "=" to use API
 
+  const flatListRef = useRef(null);
+
+  useEffect(() => {
+    flatListRef.current?.scrollToEnd({ animated: true });
+  }, [messages]);
+ 
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -130,11 +136,16 @@ export default function ChatScreen() {
 
       {/* Messages Container */}
       <FlatList
-        data={messages}
-        keyExtractor={item => item.id}
-        renderItem={renderItem}
-        contentContainerStyle={styles.chatList}
+      ref={flatListRef}  // Ensure the ref is passed
+      data={messages}
+      keyExtractor={item => item.id}
+      renderItem={renderItem}
+      contentContainerStyle={styles.chatList}
+      onContentSizeChange={() => {
+        flatListRef.current?.scrollToEnd({ animated: true }); // Scroll to the end when the content size changes
+      }}
       />
+
 
       {/* Input Section */}
       <View style={styles.inputContainer}>

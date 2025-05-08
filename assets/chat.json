@@ -142,11 +142,22 @@
         "user_id": "a6c04ceed74b447280f5fa7ab053adcc"
       },
       "time": "2025-05-08 15:45:45"
+    },
+    {
+      "id": "60879f901f72449fa8d5c74ebb51a4f1",
+      "message": "Cras vel elit sed mi placerat pharetra eget vel odio.Aenean ullamcorper orci et vulputate fermentum.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Etiam risus sapien, auctor eu volutpat sit amet, porta in nunc.",
+      "sender": {
+        "image": "https://fastly.picsum.photos/id/648/160/160.jpg?hmac=AqrvRqv79fFWHWjjjm_Cn7QPPJ2JVox_CLRgzISsO4o",
+        "is_kyc_verified": false,
+        "self": false,
+        "user_id": "a6c04ceed74b437280f5fa7ab053adcc"
+      },
+      "time": "2025-05-08 15:50:45"
     }
   ],
   "from": "Domlur",
   "message": "Chat retrieved successfully",
-  "name": "Trip No. 62",
+  "name": "Trip No. 64",
   "status": "success",
   "to": "Whitefield"
 }
