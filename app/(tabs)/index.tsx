@@ -204,11 +204,13 @@ const styles = StyleSheet.create({
   myMessage: {
     backgroundColor: '#007AFF',
     alignSelf: 'flex-end',
+    borderBottomRightRadius: 0,
   },
   otherMessage: {
     backgroundColor: '#F1F1F1',
     alignSelf: 'flex-start',
     display: 'flex',
+    borderTopLeftRadius: 0
   },
   row: {
     flexDirection: 'row',
@@ -249,7 +251,8 @@ const styles = StyleSheet.create({
   input: {
     flex: 1,
     marginHorizontal: 12,
-    padding: 8,
+    padding: 12, 
+    paddingVertical: 8,  
     borderRadius: 20,
     backgroundColor: '#f0f0f0',
   },
@@ -257,6 +260,6 @@ const styles = StyleSheet.create({
     fontSize: 11,
     color: '#999',
     alignSelf: 'center',
-    marginBottom: 4,
+    marginTop: 8,
   },
 });
